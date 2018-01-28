@@ -9,7 +9,7 @@ public class szyfrCezara {
 
         Scanner sc = new Scanner(System.in);
         char[]toCode = sc.next().toCharArray();  //sam .next() jest Stringiem  a toCharArray rozbija znaki na tablice znakow
-        int key = sc.nextInt();
+        int key1 = sc.nextInt();
 
         for (int i = 0; i <toCode.length ; i++) {
             int letter=0;
@@ -19,9 +19,10 @@ public class szyfrCezara {
                     break;
                 }
             }
-            System.out.println(letters[(letter+key)%26]);
+            System.out.println(letters[(letter+key1)%26]);
             
         }
+
     }
 
 }
