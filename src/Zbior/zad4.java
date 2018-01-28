@@ -11,21 +11,18 @@ public class zad4 {
 
         StringBuilder sb = new StringBuilder();
 
-        boolean isUpper=false;
-
-
+        boolean isUpper = false;
         for (int i = 0; i <word.length ; i++) {
-            if (isUpper){
-                sb.append(Character.toLowerCase(word[i]));
-            }
+            if(Character.isUpperCase(word[i]) && i!=0)
+            System.out.print(" "+Character.toLowerCase(word[i]));
+               else
+            System.out.print(word[i]);
 
+
+            }
 
         }
 
 
-
-
-
-
     }
-}
+
