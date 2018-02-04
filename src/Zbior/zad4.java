@@ -9,7 +9,7 @@ public class zad4 {
         System.out.println("podaj słowo: ");
         char[] word = sc.nextLine().toCharArray();
 
-        StringBuilder sb = new StringBuilder();
+
 
         boolean isUpper = false;
         for (int i = 0; i <word.length ; i++) {

@@ -33,10 +33,36 @@ public class Warcaby {
     }
 
 
+<<<<<<< HEAD:src/Zbior/Warcaby.java
     public void plansza(int x, int y, char color) {
         this.x=x;
         this.y=y;
 
+=======
+<<<<<<< HEAD
+
+    public void plansza(int x, int y, char color) {
+
+
+
+=======
+<<<<<<< HEAD
+    public void plansza(int x, int y, char color) {
+=======
+    public void plansza(int x, int y) {
+>>>>>>> master
+>>>>>>> master
+
+        this.x = x;
+        this.y = y;
+
+        //pobranie koloru
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        char[][] plansza = new char[getX()][getY()];
+>>>>>>> master
+>>>>>>> master:src/zadDomAlgorytmika/Warcaby.java
 
         char[][] plansza1 = new char[getX()][getY()];
 
@@ -63,7 +89,16 @@ public class Warcaby {
 
 
 
+<<<<<<< HEAD:src/Zbior/Warcaby.java
 
+=======
+<<<<<<< HEAD
+=======
+    }
+
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master:src/zadDomAlgorytmika/Warcaby.java
 
 
 

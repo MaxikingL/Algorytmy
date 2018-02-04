@@ -16,7 +16,6 @@ public class zad3Tablice {
 
             }
 
-
         }
         //zliczanie
 
@@ -39,7 +38,5 @@ public class zad3Tablice {
                 System.out.printf("element %d wystapil= %d razy czyli najwiecej ", i, L[i]);
 
         }
-
-
     }
 }

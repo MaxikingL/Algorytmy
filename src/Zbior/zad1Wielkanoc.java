@@ -49,7 +49,7 @@ public class zad1Wielkanoc {
         if(miesiac==4){
             System.out.println(dzien+" kwiecien "+rok);
         }else{
-            System.out.printf("%d : %d : %d",dzien,miesiac,rok);
+            System.out.printf(dzien+" mrzec "+rok);
 
         }
 
