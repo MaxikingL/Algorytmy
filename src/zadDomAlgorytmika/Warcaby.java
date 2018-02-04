@@ -35,12 +35,17 @@ public class Warcaby {
     }
 
 
+<<<<<<< HEAD
     public void plansza(int x, int y, char color) {
+=======
+    public void plansza(int x, int y) {
+>>>>>>> master
 
         this.x = x;
         this.y = y;
 
         //pobranie koloru
+<<<<<<< HEAD
         char[][] plansza = new char[getX()][getY()];
 
         for (int i = 0; i < plansza.length; i++) {
@@ -65,6 +70,43 @@ public class Warcaby {
         }
     }
 }
+=======
+        System.out.println("podaj kolor: ");
+        Scanner white = new Scanner(System.in);
+
+
+        int[][] plansza = new int[getX()][getY()];
+
+        for (int i = 0; i < plansza.length; i++) {
+            for (int j = 0; j < plansza.length; j++) {
+
+//                String kolor= white.nextLine().toLowerCase();
+
+                plansza[i][j] = (i == j) ? i : 'l';
+
+            }
+
+
+        }
+
+    }
+
+
+    //        boolean white = false;
+//
+//        for (int i = 0; i < plansza.length; i++) {
+//            for (int j = 0; j < plansza.length; j++) {
+//
+//
+//
+//            }
+//        }
+//    }
+
+
+    }
+
+>>>>>>> master
 
 
 
