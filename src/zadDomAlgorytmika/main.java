@@ -7,7 +7,11 @@ public class main {
 
         Warcaby warcaby=new Warcaby();
 
+
         warcaby.plansza(8,8, 'w');
+
+
+
 
 
 

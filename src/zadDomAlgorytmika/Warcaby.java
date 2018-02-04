@@ -35,36 +35,44 @@ public class Warcaby {
     }
 
 
+
     public void plansza(int x, int y, char color) {
+
+
+
 
         this.x = x;
         this.y = y;
 
         //pobranie koloru
-        char[][] plansza = new char[getX()][getY()];
 
-        for (int i = 0; i < plansza.length; i++) {
-            for (int j = 0; j < plansza.length; j++) {
+        char[][] plansza1 = new char[getX()][getY()];
+
+        for (int i = 0; i < plansza1.length; i++) {
+            for (int j = 0; j < plansza1.length; j++) {
                 if(i == 0 && j==0){
-                    plansza[i][j] = color;
+                    plansza1[i][j] = color;
                 }
                 else if(j ==0){
-                    plansza[i][j] = plansza[i-1][j] == 'w' ? 'b' : 'w';
+                    plansza1[i][j] = plansza1[i-1][j] == 'w' ? 'b' : 'w';
                 }
                 else {
-                    plansza[i][j] = plansza[i][j-1] == 'w' ? 'b' : 'w';
+                    plansza1[i][j] = plansza1[i][j-1] == 'w' ? 'b' : 'w';
                 }
             }
         }
 
-        for (int i = 0; i < plansza.length; i++) {
-            for (int j = 0; j < plansza.length; j++) {
-                System.out.print(plansza[i][j]);
+        for (int i = 0; i < plansza1.length; i++) {
+            for (int j = 0; j < plansza1.length; j++) {
+                System.out.print(plansza1[i][j]);
             }
             System.out.print("\n");
         }
     }
 }
+
+
+
 
 
 
