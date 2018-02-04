@@ -7,7 +7,11 @@ public class main {
 
         Warcaby warcaby=new Warcaby();
 
+<<<<<<< HEAD:src/Zbior/main.java
 
+=======
+<<<<<<< HEAD
+>>>>>>> master:src/zadDomAlgorytmika/main.java
 
         warcaby.plansza(8,8, 'w');
 
@@ -15,10 +19,17 @@ public class main {
 
 
 
+<<<<<<< HEAD:src/Zbior/main.java
 
 
 
 
+=======
+=======
+        warcaby.plansza(8,8);
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master:src/zadDomAlgorytmika/main.java
 
 
 
