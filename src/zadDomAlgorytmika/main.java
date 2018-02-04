@@ -7,12 +7,21 @@ public class main {
 
         Warcaby warcaby=new Warcaby();
 
+<<<<<<< HEAD
 
         warcaby.plansza(8,8, 'w');
 
 
 
 
+=======
+<<<<<<< HEAD
+        warcaby.plansza(8,8, 'w');
+
+=======
+        warcaby.plansza(8,8);
+>>>>>>> master
+>>>>>>> master
 
 
 

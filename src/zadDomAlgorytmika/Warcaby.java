@@ -35,16 +35,29 @@ public class Warcaby {
     }
 
 
+<<<<<<< HEAD
 
     public void plansza(int x, int y, char color) {
 
 
 
+=======
+<<<<<<< HEAD
+    public void plansza(int x, int y, char color) {
+=======
+    public void plansza(int x, int y) {
+>>>>>>> master
+>>>>>>> master
 
         this.x = x;
         this.y = y;
 
         //pobranie koloru
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        char[][] plansza = new char[getX()][getY()];
+>>>>>>> master
 
         char[][] plansza1 = new char[getX()][getY()];
 
@@ -73,6 +86,12 @@ public class Warcaby {
 
 
 
+<<<<<<< HEAD
+=======
+    }
+
+>>>>>>> master
+>>>>>>> master
 
 
 
