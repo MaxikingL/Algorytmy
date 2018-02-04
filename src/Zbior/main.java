@@ -1,4 +1,4 @@
-package zadDomAlgorytmika;
+package Zbior;
 
 public class main {
     public static void main(String[] args) {
@@ -8,7 +8,13 @@ public class main {
         Warcaby warcaby=new Warcaby();
 
 
+
         warcaby.plansza(8,8, 'w');
+
+
+
+
+
 
 
 
