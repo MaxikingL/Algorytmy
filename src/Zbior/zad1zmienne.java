@@ -5,45 +5,31 @@ public class zad1zmienne {
     public static void main(String[] args) {
 
 
-        String[] tab = new String[]{"1", "5", "1", "40","5", "1"};
+        int[] inputArray = {2, 1, 3, 4, 5};
 
+        int duplicateTemp = 0;
+        int firstOccuranceIndex = 0;
+        int secondOccuranceIndex = 0;
+        boolean end = false;
 
-        String liczba;
+        for (int i = 0; i < inputArray.length; i++) {
 
+            duplicateTemp = inputArray[i];
+            firstOccuranceIndex = i;
 
-        for (int i = 0; i < tab.length; i++) {
-            liczba = tab[i];
-            if (liczba.equals(tab[i])) {
-                String szukanaLiczba = tab[i];
+            for (int j = i + 1; j < inputArray.length; j++) {
 
-
-                for (int j = i + 1; j < tab.length; j++) {
-                    if (szukanaLiczba.equals(tab[j])) {
-
-                        String pierwszeWystapienie = tab[j];
-                        i++;
-
-
-                        for (int k = j+2; k < tab.length; k++) {
-                            i++;
-
-                            if (pierwszeWystapienie.equals(tab[k])) {
-
-                                String drugieWystąpienie = tab[k];
-                                System.out.println(liczba + " " + j + " " + k);
-
-
-                            }
-
-
-
-                        }
-                    }else{
-                        System.out.println("nie ma");
+                if (duplicateTemp == inputArray[j]) {
+                    secondOccuranceIndex = j;
+                    end = true;
+                    break;
                 }
             }
-            }
+            if (end) break;
         }
 
+        if (secondOccuranceIndex != 0)
+            System.out.printf("%d: (%d,%d)", duplicateTemp, firstOccuranceIndex, secondOccuranceIndex);
+        else System.out.println("Array doesn't have two identical values");
     }
 }
