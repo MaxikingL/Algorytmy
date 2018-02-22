@@ -52,10 +52,35 @@ public class tablice1 {
             System.out.println();
             System.out.printf("Index number: %d", indexNumner1);
 
-        }else {
+        } else {
             System.out.println();
             System.out.println(-1);
         }
+
+
+        String tab3 = "[10,11,2,3,14]";
+        String[] newTab = tab3.substring(1, 10).split(",");
+        int[] newTab1 = new int[newTab.length];
+        int Max=-1;
+        int Min=0;
+
+        for (int i = 0; i <newTab.length ; i++) {
+            newTab1[i]=Integer.parseInt(newTab[i]);
+        }
+
+        for (int i = 0; i <newTab1.length ; i++) {
+            if(Max<newTab1[i]){
+                Max=newTab1[i];
+            }else if(Min>=newTab1[i]){
+                Min=newTab1[i];
+            }else{
+                Min++;
+            }
+
+        }
+
+
+
 
     }
 }

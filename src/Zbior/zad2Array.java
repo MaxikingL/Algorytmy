@@ -13,8 +13,11 @@ public class zad2Array {
         String toDelete = lista.substring(0, 1);
         int toDelete1 = Integer.parseInt(toDelete);
 
+<<<<<<< HEAD
         boolean end= false;
 
+=======
+>>>>>>> master
         String[] numbers = lista.substring(2, 15).split(",");
 
 
@@ -25,6 +28,7 @@ public class zad2Array {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == toDelete1) {
                 list.remove(i);
+<<<<<<< HEAD
                 end=true;
 
             }
@@ -33,5 +37,12 @@ public class zad2Array {
         System.out.println(list);
         else
             System.out.printf("liczba %d nie wystepuje",toDelete1);
+=======
+
+            }
+
+        }
+        System.out.println(list);
+>>>>>>> master
     }
 }
